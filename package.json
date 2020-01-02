@@ -1,0 +1,30 @@
+{
+  "name": "chat-client",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "circular-json": "^0.3.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "^3.1.0",
+    "ejs": "~2.5.6",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "socket.io": "^2.1.1",
+    "yargs": "*"
+  },
+  "description": "This is a sample chat client used for an MSc project",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
